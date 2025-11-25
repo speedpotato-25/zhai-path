@@ -1,8 +1,8 @@
 [gd_scene load_steps=29 format=3 uid="uid://bthfv4g1nu245"]
 
-[ext_resource type="Texture2D" uid="uid://b5d78732ciyo6" path="res://Jump (32x32).png" id="1_07x3c"]
-[ext_resource type="Texture2D" uid="uid://dgk363xwqahkq" path="res://Idle (32x32).png" id="2_xl1gm"]
-[ext_resource type="Texture2D" uid="uid://mn0if8k4vd8o" path="res://Run (32x32).png" id="3_55ngl"]
+[ext_resource type="Texture2D" uid="uid://b5d78732ciyo6" path="res://art/Jump (32x32).png" id="1_07x3c"]
+[ext_resource type="Texture2D" uid="uid://dgk363xwqahkq" path="res://art/Idle (32x32).png" id="2_xl1gm"]
+[ext_resource type="Texture2D" uid="uid://mn0if8k4vd8o" path="res://art/Run (32x32).png" id="3_55ngl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wa5vi"]
 atlas = ExtResource("2_xl1gm")
@@ -199,7 +199,7 @@ scale = Vector2(4.11, 4)
 sprite_frames = SubResource("SpriteFrames_jbn5i")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.9193022
+frame_progress = 0.064270206
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 1)
